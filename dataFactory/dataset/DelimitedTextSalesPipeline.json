@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Azure_CRM_Sales_DE_Project/refs/heads/DEV/raw_data/sales_pipeline.csv"
+				"relativeUrl": "sales_pipeline.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
