@@ -1,0 +1,22 @@
+{
+	"name": "DelimitedTextDD",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServerGitLink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Azure_CRM_Sales_DE_Project/refs/heads/DEV/raw_data/data_dictionary.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
