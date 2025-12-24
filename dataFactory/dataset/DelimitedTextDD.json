@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Azure_CRM_Sales_DE_Project/refs/heads/DEV/raw_data/data_dictionary.csv"
+				"relativeUrl": "data_dictionary.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
