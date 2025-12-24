@@ -1,0 +1,9 @@
+{
+	"name": "CRMSalesDF",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4bf971b4-0cde-4a84-ae4c-7d94c74a9efe",
+		"tenantId": "81e94669-37b5-4399-b3fe-ba8683b515ba"
+	}
+}
