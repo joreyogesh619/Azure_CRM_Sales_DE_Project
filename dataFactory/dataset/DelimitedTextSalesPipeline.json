@@ -1,0 +1,22 @@
+{
+	"name": "DelimitedTextSalesPipeline",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServerGitLink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "sales_pipeline.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

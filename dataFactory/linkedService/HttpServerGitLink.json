@@ -1,0 +1,12 @@
+{
+	"name": "HttpServerGitLink",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/joreyogesh619/Azure_CRM_Sales_DE_Project/refs/heads/DEV/raw_data/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"name": "DelimitedTextDD",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServerGitLink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "data_dictionary.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
